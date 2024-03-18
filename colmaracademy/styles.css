@@ -1,0 +1,300 @@
+/* Site Stylesheet
+    1. Global Styles
+    2. Typography Styles
+    3. Structure Styles
+    4. Module Styles
+    5. Component Styles
+    ============================================================= */
+
+    /*1. Global Styles
+    ============================================================= */
+
+*{
+    box-sizing: border-box;
+}
+    
+html {
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+  
+/*2. Typography Styles
+================================================ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700px;
+    transition: font-size 0.25s ease;
+    margin-bottom: 10px;
+}
+
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px; 
+}
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+p {
+    color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+/* 3. Structure Styles
+================================================== */
+
+.logo {
+    margin-left: 24px;
+    height: 32px;
+}
+
+.intro {
+    height: 64px;
+}
+
+.banner {
+    margin: 32px 24px;
+    width: 60%;
+}
+
+.learning {
+    background-color: lightgray;
+}
+
+.information {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.practicing {
+    background-color: floralwhite;
+}
+
+.orienting {
+    width: 40%;
+    background-color: floralwhite;
+    border: 1px solid;
+    border-color: black;
+}
+
+.orientation {
+    width: 35%;
+    height: auto;
+}
+
+.locating {
+    width: 40%;
+    background-color: white;
+    border: 1px solid;
+    border-color:black;
+}
+
+.location {
+    width: 35%;
+    height: auto;
+}
+
+.lecturing {
+    background-color: darkgray;
+}
+
+.lecture {
+    margin: 16px;
+}
+
+.coursing {
+    background-color: lightgray;
+    padding: 32px 72px;
+    width: 100%;
+}
+
+.engineering {
+    background-color: white;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    text-indent: 16px;  
+}
+
+.courseimg {
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.creating {
+    background-color: white;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    text-indent: 16px;
+}
+
+.designing {
+    margin-bottom: 32px;
+    background-color: white;
+    text-indent: 16px;
+}
+
+.datamining {
+    background-color: white;
+    margin-right: 32px;
+    text-indent: 16px;
+}
+
+.corporating {
+    margin-right: 32px;
+    text-indent: 16px;
+    background-color: white;
+}
+
+.marketing {
+    text-indent: 16px;
+    background-color: white;
+}
+
+.thesis {
+    background-color: white;
+
+}
+
+.writer {
+    margin: 32px 0px;
+}
+
+.fisma {
+    width: 40%;
+    background-color: gray
+}
+
+.thfisma {
+    margin: 16px;
+    width: 35%;
+    height: auto;
+}
+
+.study {
+    width: 40%;
+}
+
+.newyork {
+    margin: 16px;
+    width: 35%;
+    height: auto;
+}
+
+foot {
+    background-color: white;
+    border: 1px gray solid;
+}
+
+.footer .p {
+    text-align: left;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+
+.footer .a {
+    text-align: right;
+    margin-top: 16px;
+    margin-right: 24px;
+}
+
+
+/* 4. Module Styles
+================================================== */
+
+.coursing h2 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.coursing h3 {
+    margin-bottom: 16px;
+}
+
+.coursing h6 {
+    margin-bottom: 8px;
+}
+
+.coursing p {
+    margin-bottom: 24px;
+}
+
+.project {
+    width: 60%;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.film .h3 {
+    margin-bottom: 8px;
+}
+
+.film .p {
+    margin-bottom: 32px;
+}
+
+
+/* 5. Component Styles
+================================================== */
+
+.button {
+    border-radius: 10px;
+    color: darkslategrey;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    text-decoration-color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: opacity 0.5s ease;
+}
+
+.button:hover {
+    opacity: 0.6;
+}
+
+.button:click {
+    text-decoration-color: antiquewhite;
+}
+
+
+.button-learning {
+    padding: 8px 0px;
+}
+
+
+
